@@ -1,10 +1,17 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Freelance Portfolio Template v1.0.0 (https://themesbootstrap.com.mx/templates/freelance-portfolio-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/freelancer-portfolio/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 :root {
     --primary-color: #161d27;
     --secondary-color: #a19975;
     --light-color: #ffffff;
     --grey-color: #efefef;
     --extra-light: rgba(255,255,255,.6);
-
     --font-semi-bold: 600;
     --font-bold: 700;
 }
@@ -20,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-semi-bold) !important;
 }
 
-#hero a, footer a {
+a {
     color: var(--light-color);
 }
 
@@ -29,6 +36,8 @@ a:hover {
     opacity: .9;
     text-decoration: none;
 }
+
+.active { color: var(--secondary-color); }
 
 section {
     padding: 100px 0;
@@ -39,8 +48,6 @@ section {
 .bg-primary { background-color: var(--primary-color) !important; }
 .bg-light { background-color:  var(--light-color) !important; }
 .bg-grey { background-color: var(--grey-color); }
-
-.active { color: var(--secondary-color); }
 
 .btn {
     font-weight: var(--font-semi-bold);
@@ -71,7 +78,6 @@ section {
 }
 
 .navbar {
-    background-color: var(--primary-color);
     min-height: 80px;
 }
 
